@@ -220,6 +220,15 @@ for i in /etc/rc.*; do
 done
 ```
 
+### C-like for loop
+
+```bash
+for ((counter = 0; counter < $length; counter+1)); do
+  echo $i
+done
+```
+
+
 ### Ranges
 
 ```bash
